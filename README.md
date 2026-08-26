@@ -392,17 +392,51 @@ MongoDB Prediction History
 
 ### In Progress
 
-* [ ] Repository setup
+* [ ] GitHub governance and submission review
 
 ### Planned
 
-* [ ] Complete dashboard
-* [ ] Complete prediction module
-* [ ] Complete XAI module
-* [ ] Complete model comparison
-* [ ] System testing
-* [ ] Final documentation
 * [ ] Final project deployment
+
+### Final Verification Notes
+
+* [x] Dashboard, analytics, visualizations, prediction, evaluation, explainability, and history pages integrated.
+* [x] Both datasets tested independently through the Flask prediction workflow.
+* [x] SHAP and LIME artifacts are available for the selected models.
+* [x] MongoDB Atlas connection, prediction storage, filtering, retrieval, and deletion verified.
+* [x] Invalid input, missing dataset, empty history, and unavailable-service handling verified.
+* [x] Final testing report and project checklist created under `reports/`.
+* [ ] Automated responsive browser testing requires a locally installed Playwright browser.
+* [ ] Dataset redistribution permissions must be confirmed before submission; local CSV files are currently tracked in Git.
+* [ ] Team contributions, weekly commits, repository permissions, supervisor access, course coordinator access, and milestone tags require GitHub verification.
+
+## Final Model Results
+
+Model selection prioritizes ROC-AUC, followed by Recall, F1-Score, and Accuracy. Values below are from the held-out test evaluation and are not medical performance claims.
+
+| Dataset | Selected Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Dataset 1 — BRFSS Health Indicators | XGBoost | 0.8363 | 0.4729 | 0.3914 | 0.4015 | 0.7656 |
+| Dataset 2 — Lifestyle and Clinical Profiles | Decision Tree | 0.9195 | 0.9971 | 0.8685 | 0.9283 | 0.9450 |
+
+The complete six-model comparisons, cross-validation results, rankings, confusion matrices, ROC curves, and feature-importance outputs are stored in `results/model_metrics/`.
+
+## MongoDB Configuration
+
+Prediction history uses the `predictions` collection in the `diarisk_analytics` MongoDB database. Configure Atlas locally in `.env`:
+
+```env
+MONGO_URI=your_mongodb_atlas_connection_string
+DATABASE_NAME=diarisk_analytics
+```
+
+The application never stores the original CSV datasets. It stores only the dataset identifier, model, predicted class, probability, submitted feature values, timestamp, and XAI availability status. `.env` is ignored by Git; use `.env.example` as the blank template and never place credentials in README or source files.
+
+## Final Reports
+
+* [Final testing report](reports/progress/final_testing_report.md)
+* [Final project checklist](reports/final/final_project_checklist.md)
+* [Final technical summary](reports/final/final_technical_summary.md)
 
 ---
 
