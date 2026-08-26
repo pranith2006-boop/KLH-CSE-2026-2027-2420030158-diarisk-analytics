@@ -1,0 +1,108 @@
+{
+  "case": "correct_positive",
+  "actual_target": 2,
+  "predicted_target": 2,
+  "model": "xgboost",
+  "contributions": [
+    {
+      "feature": "HighBP_0.0",
+      "contribution": 0.24536514282226562,
+      "value": 0.0
+    },
+    {
+      "feature": "BMI",
+      "contribution": 0.22317306697368622,
+      "value": 0.9318785379432655
+    },
+    {
+      "feature": "GenHlth_5.0",
+      "contribution": 0.1191178411245346,
+      "value": 1.0
+    },
+    {
+      "feature": "HighChol_0.0",
+      "contribution": 0.11854355037212372,
+      "value": 0.0
+    },
+    {
+      "feature": "GenHlth_3.0",
+      "contribution": 0.08361947536468506,
+      "value": 0.0
+    },
+    {
+      "feature": "GenHlth_2.0",
+      "contribution": 0.07362139225006104,
+      "value": 0.0
+    },
+    {
+      "feature": "DiffWalk_0.0",
+      "contribution": 0.07059018313884735,
+      "value": 0.0
+    },
+    {
+      "feature": "Income_4.0",
+      "contribution": 0.07001470029354095,
+      "value": 1.0
+    },
+    {
+      "feature": "Fruits_0.0",
+      "contribution": 0.05525599420070648,
+      "value": 0.0
+    },
+    {
+      "feature": "HeartDiseaseorAttack_0.0",
+      "contribution": -0.050711680203676224,
+      "value": 1.0
+    },
+    {
+      "feature": "PhysActivity_0.0",
+      "contribution": 0.04852207377552986,
+      "value": 1.0
+    },
+    {
+      "feature": "NoDocbcCost_0.0",
+      "contribution": -0.037392549216747284,
+      "value": 0.0
+    },
+    {
+      "feature": "MentHlth",
+      "contribution": 0.03250882774591446,
+      "value": 2.7919156878876117
+    },
+    {
+      "feature": "Age_8.0",
+      "contribution": 0.031739089637994766,
+      "value": 1.0
+    },
+    {
+      "feature": "GenHlth_1.0",
+      "contribution": 0.031025933101773262,
+      "value": 0.0
+    },
+    {
+      "feature": "Veggies_0.0",
+      "contribution": 0.02853880077600479,
+      "value": 1.0
+    },
+    {
+      "feature": "Education_4.0",
+      "contribution": -0.02425946295261383,
+      "value": 1.0
+    },
+    {
+      "feature": "Age_10.0",
+      "contribution": -0.022115055471658707,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_11.0",
+      "contribution": -0.0196521058678627,
+      "value": 0.0
+    },
+    {
+      "feature": "HvyAlcoholConsump_0.0",
+      "contribution": 0.017252258956432343,
+      "value": 1.0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Model,CV Mean,CV Std
+logistic_regression,0.7557,0.0018
+decision_tree,0.7145,0.0058
+random_forest,0.7455,0.0045
+svm,0.7405,0.0076
+xgboost,0.7609,0.0028
+catboost,0.7348,0.0024

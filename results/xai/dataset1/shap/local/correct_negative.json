@@ -1,0 +1,108 @@
+{
+  "case": "correct_negative",
+  "actual_target": 0,
+  "predicted_target": 0,
+  "model": "xgboost",
+  "contributions": [
+    {
+      "feature": "HighBP_0.0",
+      "contribution": 0.24240286648273468,
+      "value": 1.0
+    },
+    {
+      "feature": "BMI",
+      "contribution": 0.23402170836925507,
+      "value": -0.6923879450166338
+    },
+    {
+      "feature": "HighChol_0.0",
+      "contribution": 0.18000267446041107,
+      "value": 1.0
+    },
+    {
+      "feature": "GenHlth_2.0",
+      "contribution": 0.15953153371810913,
+      "value": 1.0
+    },
+    {
+      "feature": "AnyHealthcare_0.0",
+      "contribution": 0.1089107096195221,
+      "value": 1.0
+    },
+    {
+      "feature": "Sex_0.0",
+      "contribution": -0.06612921506166458,
+      "value": 0.0
+    },
+    {
+      "feature": "GenHlth_1.0",
+      "contribution": -0.055681012570858,
+      "value": 0.0
+    },
+    {
+      "feature": "Smoker_0.0",
+      "contribution": 0.04618231579661369,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_8.0",
+      "contribution": 0.043518200516700745,
+      "value": 1.0
+    },
+    {
+      "feature": "Age_11.0",
+      "contribution": 0.029244601726531982,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_10.0",
+      "contribution": 0.02909267321228981,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_12.0",
+      "contribution": 0.022026384249329567,
+      "value": 0.0
+    },
+    {
+      "feature": "MentHlth",
+      "contribution": -0.02188173495233059,
+      "value": -0.45416033579393184
+    },
+    {
+      "feature": "GenHlth_4.0",
+      "contribution": 0.01992270164191723,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_9.0",
+      "contribution": 0.019267527386546135,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_13.0",
+      "contribution": 0.01890801452100277,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_5.0",
+      "contribution": -0.017980951815843582,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_4.0",
+      "contribution": -0.017004860565066338,
+      "value": 0.0
+    },
+    {
+      "feature": "Income_6.0",
+      "contribution": 0.016006603837013245,
+      "value": 1.0
+    },
+    {
+      "feature": "Age_6.0",
+      "contribution": -0.01510316040366888,
+      "value": 0.0
+    }
+  ]
+}

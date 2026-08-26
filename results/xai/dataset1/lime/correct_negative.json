@@ -1,0 +1,88 @@
+{
+  "case": "correct_negative",
+  "actual_target": 0,
+  "predicted_target": 0,
+  "model": "xgboost",
+  "contributions": [
+    {
+      "feature": "Age_2.0 <= 0.00",
+      "contribution": 0.09636073465548625
+    },
+    {
+      "feature": "BMI <= -0.69",
+      "contribution": 0.08883683588319087
+    },
+    {
+      "feature": "0.00 < HighBP_0.0 <= 1.00",
+      "contribution": 0.08420728018565404
+    },
+    {
+      "feature": "Age_12.0 <= 0.00",
+      "contribution": 0.07950018801798522
+    },
+    {
+      "feature": "GenHlth_5.0 <= 0.00",
+      "contribution": 0.06702143286210459
+    },
+    {
+      "feature": "Age_11.0 <= 0.00",
+      "contribution": 0.05996231469380477
+    },
+    {
+      "feature": "AnyHealthcare_0.0 > 0.00",
+      "contribution": -0.0583476338015838
+    },
+    {
+      "feature": "Age_10.0 <= 0.00",
+      "contribution": 0.055167668198589676
+    },
+    {
+      "feature": "Education_2.0 <= 0.00",
+      "contribution": 0.05410587295671477
+    },
+    {
+      "feature": "Income_1.0 <= 0.00",
+      "contribution": 0.05048022147399272
+    },
+    {
+      "feature": "Age_4.0 <= 0.00",
+      "contribution": -0.04921146895143087
+    },
+    {
+      "feature": "Sex_0.0 <= 0.00",
+      "contribution": -0.0416366389913167
+    },
+    {
+      "feature": "Age_1.0 <= 0.00",
+      "contribution": -0.041133604677035765
+    },
+    {
+      "feature": "Age_13.0 <= 0.00",
+      "contribution": 0.03912498901701318
+    },
+    {
+      "feature": "Education_3.0 <= 0.00",
+      "contribution": 0.036256901540912295
+    },
+    {
+      "feature": "CholCheck_0.0 <= 0.00",
+      "contribution": -0.03609699355572003
+    },
+    {
+      "feature": "0.00 < HighChol_0.0 <= 1.00",
+      "contribution": 0.034610460083924245
+    },
+    {
+      "feature": "0.00 < PhysActivity_0.0 <= 1.00",
+      "contribution": -0.03366929550295946
+    },
+    {
+      "feature": "Income_3.0 <= 0.00",
+      "contribution": 0.03288498924610146
+    },
+    {
+      "feature": "Education_1.0 <= 0.00",
+      "contribution": 0.01623228439851374
+    }
+  ]
+}

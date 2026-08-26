@@ -1,0 +1,31 @@
+Feature,Test_Name,Test_Statistic,p-value,Significance_Alpha_0.05,Interpretation
+Age,Mann-Whitney U Test,953625293.0,0.0,True,Statistically Significant difference between target groups.
+physical_activity_minutes_per_week,Mann-Whitney U Test,1262403233.0,9.730463933721328e-191,True,Statistically Significant difference between target groups.
+diet_score,Mann-Whitney U Test,1195581152.5,7.141085881041526e-44,True,Statistically Significant difference between target groups.
+sleep_hours_per_day,Mann-Whitney U Test,1135942551.5,0.9953111294486786,False,No statistically significant difference.
+screen_time_hours_per_day,Mann-Whitney U Test,1112362714.0,3.7936165009003926e-08,True,Statistically Significant difference between target groups.
+bmi,Mann-Whitney U Test,1007898783.5,1.1803922923288293e-195,True,Statistically Significant difference between target groups.
+waist_to_hip_ratio,Mann-Whitney U Test,1032803828.5,3.445095743759431e-128,True,Statistically Significant difference between target groups.
+systolic_bp,Mann-Whitney U Test,1008628966.0,1.5487384265879656e-193,True,Statistically Significant difference between target groups.
+diastolic_bp,Mann-Whitney U Test,1089311495.0,1.4686166944730598e-27,True,Statistically Significant difference between target groups.
+heart_rate,Mann-Whitney U Test,1106620501.5,7.802369409238285e-12,True,Statistically Significant difference between target groups.
+cholesterol_total,Mann-Whitney U Test,1058357179.5,4.303849742041442e-73,True,Statistically Significant difference between target groups.
+hdl_cholesterol,Mann-Whitney U Test,1205573019.0,3.382730650322711e-59,True,Statistically Significant difference between target groups.
+ldl_cholesterol,Mann-Whitney U Test,1046321238.5,6.338501808329576e-97,True,Statistically Significant difference between target groups.
+triglycerides,Mann-Whitney U Test,1060491892.5,3.1676987599311496e-69,True,Statistically Significant difference between target groups.
+glucose_fasting,Mann-Whitney U Test,436088625.5,0.0,True,Statistically Significant difference between target groups.
+glucose_postprandial,Mann-Whitney U Test,241007327.0,0.0,True,Statistically Significant difference between target groups.
+insulin_level,Mann-Whitney U Test,1059596647.0,6.51338617501528e-71,True,Statistically Significant difference between target groups.
+hba1c,Mann-Whitney U Test,154181787.5,0.0,True,Statistically Significant difference between target groups.
+diabetes_risk_score,Mann-Whitney U Test,767828613.5,0.0,True,Statistically Significant difference between target groups.
+gender,Chi-Square Test of Independence,5.406933378481136,0.06697293548129256,False,No statistically significant association.
+ethnicity,Chi-Square Test of Independence,4.196918591207521,0.38001129269800243,False,No statistically significant association.
+education_level,Chi-Square Test of Independence,2.6480936056001414,0.44912042992085055,False,No statistically significant association.
+income_level,Chi-Square Test of Independence,4.3376561147641866,0.3622335042157412,False,No statistically significant association.
+employment_status,Chi-Square Test of Independence,2.499673832491216,0.4753500319995584,False,No statistically significant association.
+smoking_status,Chi-Square Test of Independence,0.13545589239324804,0.9345146772693669,False,No statistically significant association.
+alcohol_consumption_per_week,Chi-Square Test of Independence,6.466642296192117,0.7746538985283188,False,No statistically significant association.
+family_history_diabetes,Chi-Square Test of Independence,3849.9462423245996,0.0,True,Statistically Significant association with target.
+hypertension_history,Chi-Square Test of Independence,73.70322998664058,9.079019208729706e-18,True,Statistically Significant association with target.
+cardiovascular_history,Chi-Square Test of Independence,86.45346445388196,1.4306445082911806e-20,True,Statistically Significant association with target.
+diabetes_stage,Chi-Square Test of Independence,96905.60869388116,0.0,True,Statistically Significant association with target.

@@ -1,0 +1,13 @@
+DATASET2
+Best Model: decision_tree
+Accuracy: 0.9195
+Precision: 0.9971
+Recall: 0.8685
+F1: 0.9283
+ROC-AUC: 0.9450
+
+Second Best Model: catboost
+Selection: ROC-AUC primary, Recall/F1/Accuracy tie-breakers.
+Error analysis positive label: 1
+False Positive Rate: 0.0039
+False Negative Rate: 0.1315

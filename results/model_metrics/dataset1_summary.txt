@@ -1,0 +1,13 @@
+DATASET1
+Best Model: xgboost
+Accuracy: 0.8363
+Precision: 0.4729
+Recall: 0.3914
+F1: 0.4015
+ROC-AUC: 0.7656
+
+Second Best Model: logistic_regression
+Selection: ROC-AUC primary, Recall/F1/Accuracy tie-breakers.
+Error analysis positive label: 2
+False Positive Rate: 0.0275
+False Negative Rate: 0.8000

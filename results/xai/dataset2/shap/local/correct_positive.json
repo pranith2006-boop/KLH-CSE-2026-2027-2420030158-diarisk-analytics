@@ -1,0 +1,108 @@
+{
+  "case": "correct_positive",
+  "actual_target": 1,
+  "predicted_target": 1,
+  "model": "decision_tree",
+  "contributions": [
+    {
+      "feature": "hba1c",
+      "contribution": 0.4021695680802395,
+      "value": 0.12234867541864539
+    },
+    {
+      "feature": "glucose_fasting",
+      "contribution": -0.004252209225123151,
+      "value": -0.2308397077067815
+    },
+    {
+      "feature": "family_history_diabetes_1",
+      "contribution": -0.0034296011091727047,
+      "value": 0.0
+    },
+    {
+      "feature": "Age",
+      "contribution": 0.0027435687847378203,
+      "value": 0.7636832043724561
+    },
+    {
+      "feature": "physical_activity_minutes_per_week",
+      "contribution": 0.0023631132066736127,
+      "value": -0.41394565642220427
+    },
+    {
+      "feature": "ldl_cholesterol",
+      "contribution": 0.0010476131404624361,
+      "value": 1.4400865401776493
+    },
+    {
+      "feature": "diet_score",
+      "contribution": -0.000747333849877571,
+      "value": -0.5579291651050159
+    },
+    {
+      "feature": "bmi",
+      "contribution": 0.0006694910915375291,
+      "value": 0.4142026008887854
+    },
+    {
+      "feature": "hdl_cholesterol",
+      "contribution": -0.0005295980465597926,
+      "value": -0.1039271538420099
+    },
+    {
+      "feature": "screen_time_hours_per_day",
+      "contribution": -0.0004563284284259443,
+      "value": -0.8911457696336959
+    },
+    {
+      "feature": "waist_to_hip_ratio",
+      "contribution": 0.0002724553405003951,
+      "value": 0.7256856875567859
+    },
+    {
+      "feature": "insulin_level",
+      "contribution": 7.415262852491123e-05,
+      "value": -0.78110645285607
+    },
+    {
+      "feature": "systolic_bp",
+      "contribution": 6.0391488115042036e-05,
+      "value": 0.9948731021992234
+    },
+    {
+      "feature": "glucose_postprandial",
+      "contribution": -2.0749944544835915e-05,
+      "value": 0.1939888847713328
+    },
+    {
+      "feature": "sleep_hours_per_day",
+      "contribution": -6.74215850365202e-06,
+      "value": 1.6497131087850458
+    },
+    {
+      "feature": "cholesterol_total",
+      "contribution": 3.6519761791358794e-06,
+      "value": 2.220229750589783
+    },
+    {
+      "feature": "triglycerides",
+      "contribution": 2.58441580990484e-06,
+      "value": 0.520549998879752
+    },
+    {
+      "feature": "heart_rate",
+      "contribution": 0.0,
+      "value": -1.1508913080774648
+    },
+    {
+      "feature": "diastolic_bp",
+      "contribution": 0.0,
+      "value": 1.6833261463987066
+    },
+    {
+      "feature": "gender_Male",
+      "contribution": 0.0,
+      "value": 1.0
+    }
+  ]
+}

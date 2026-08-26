@@ -1,0 +1,88 @@
+{
+  "case": "correct_positive",
+  "actual_target": 2,
+  "predicted_target": 2,
+  "model": "xgboost",
+  "contributions": [
+    {
+      "feature": "BMI > 0.49",
+      "contribution": 0.12092595063127874
+    },
+    {
+      "feature": "Age_2.0 <= 0.00",
+      "contribution": -0.09691177829774907
+    },
+    {
+      "feature": "HighBP_0.0 <= 0.00",
+      "contribution": 0.08566867132508053
+    },
+    {
+      "feature": "GenHlth_5.0 > 0.00",
+      "contribution": 0.06924585678843474
+    },
+    {
+      "feature": "Age_12.0 <= 0.00",
+      "contribution": -0.06765344875014064
+    },
+    {
+      "feature": "Age_10.0 <= 0.00",
+      "contribution": -0.05810122957380402
+    },
+    {
+      "feature": "Age_11.0 <= 0.00",
+      "contribution": -0.056679283849011025
+    },
+    {
+      "feature": "AnyHealthcare_0.0 <= 0.00",
+      "contribution": -0.05276140215615389
+    },
+    {
+      "feature": "Income_1.0 <= 0.00",
+      "contribution": -0.052475857211790086
+    },
+    {
+      "feature": "CholCheck_0.0 <= 0.00",
+      "contribution": 0.047701149177652294
+    },
+    {
+      "feature": "Age_13.0 <= 0.00",
+      "contribution": -0.047029636820832735
+    },
+    {
+      "feature": "Age_4.0 <= 0.00",
+      "contribution": 0.04650864889178931
+    },
+    {
+      "feature": "0.00 < Sex_0.0 <= 1.00",
+      "contribution": -0.04548768463725291
+    },
+    {
+      "feature": "MentHlth > -0.06",
+      "contribution": 0.04391799226487895
+    },
+    {
+      "feature": "Education_2.0 <= 0.00",
+      "contribution": -0.0378039596838604
+    },
+    {
+      "feature": "0.00 < PhysActivity_0.0 <= 1.00",
+      "contribution": 0.032726282254346574
+    },
+    {
+      "feature": "Education_3.0 <= 0.00",
+      "contribution": -0.03150273209797273
+    },
+    {
+      "feature": "HighChol_0.0 <= 0.00",
+      "contribution": 0.029246779183170344
+    },
+    {
+      "feature": "Age_1.0 <= 0.00",
+      "contribution": 0.028855991965655615
+    },
+    {
+      "feature": "Smoker_0.0 <= 0.00",
+      "contribution": -0.0288484690871445
+    }
+  ]
+}

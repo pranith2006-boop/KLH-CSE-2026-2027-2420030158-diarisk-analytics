@@ -1,0 +1,43 @@
+=== EDA Insights: Diabetes_and_LifeStyle_Dataset .csv ===
+
+Target variable 'diagnosed_diabetes' imbalance analysis:
+  - The target is relatively balanced with a ratio of 1.50:1. Class distribution is 1: 60.0%, 0: 40.0%.
+
+Correlation Analysis Insights (Pearson):
+  - Features 'glucose_postprandial' and 'hba1c' show a strong positive relationship (r = 0.93, Spearman rho = 0.93).
+  - Features 'cholesterol_total' and 'ldl_cholesterol' show a strong positive relationship (r = 0.91, Spearman rho = 0.91).
+  - Features 'bmi' and 'waist_to_hip_ratio' show a strong positive relationship (r = 0.77, Spearman rho = 0.75).
+  - Features 'glucose_fasting' and 'hba1c' show a strong positive relationship (r = 0.70, Spearman rho = 0.68).
+  - Features 'glucose_fasting' and 'glucose_postprandial' show a strong positive relationship (r = 0.59, Spearman rho = 0.57).
+
+Statistical Significance Testing (Alpha = 0.05):
+  - 22 out of 30 tested features show a statistically significant relationship or difference across target classes.
+    * Feature 'Age' shows a statistically significant difference with the target group (p-value = 0.000e+00 using Mann-Whitney U Test).
+    * Feature 'physical_activity_minutes_per_week' shows a statistically significant difference with the target group (p-value = 9.730e-191 using Mann-Whitney U Test).
+    * Feature 'diet_score' shows a statistically significant difference with the target group (p-value = 7.141e-44 using Mann-Whitney U Test).
+    * Feature 'screen_time_hours_per_day' shows a statistically significant difference with the target group (p-value = 3.794e-08 using Mann-Whitney U Test).
+    * Feature 'bmi' shows a statistically significant difference with the target group (p-value = 1.180e-195 using Mann-Whitney U Test).
+    * Feature 'waist_to_hip_ratio' shows a statistically significant difference with the target group (p-value = 3.445e-128 using Mann-Whitney U Test).
+    * Feature 'systolic_bp' shows a statistically significant difference with the target group (p-value = 1.549e-193 using Mann-Whitney U Test).
+    * Feature 'diastolic_bp' shows a statistically significant difference with the target group (p-value = 1.469e-27 using Mann-Whitney U Test).
+
+Distribution and Outlier Insights:
+  - Right-skewed numerical variables (skew >= 0.5): physical_activity_minutes_per_week, diabetes_risk_score. These features may benefit from log or power transformations during modeling if linear algorithms are used.
+  - Feature 'physical_activity_minutes_per_week' contains 3,115 outliers (3.20%) outside the IQR bounds [-97.50, 314.50].
+  - Feature 'diet_score' contains 325 outliers (0.33%) outside the IQR bounds [1.20, 10.80].
+  - Feature 'sleep_hours_per_day' contains 870 outliers (0.89%) outside the IQR bounds [4.20, 9.80].
+  - Feature 'screen_time_hours_per_day' contains 302 outliers (0.31%) outside the IQR bounds [-0.80, 12.80].
+  - Feature 'bmi' contains 729 outliers (0.75%) outside the IQR bounds [16.00, 35.20].
+  - Feature 'waist_to_hip_ratio' contains 265 outliers (0.27%) outside the IQR bounds [0.71, 1.00].
+  - Feature 'systolic_bp' contains 517 outliers (0.53%) outside the IQR bounds [77.50, 153.50].
+  - Feature 'diastolic_bp' contains 717 outliers (0.74%) outside the IQR bounds [53.50, 97.50].
+  - Feature 'heart_rate' contains 836 outliers (0.86%) outside the IQR bounds [47.50, 91.50].
+  - Feature 'cholesterol_total' contains 296 outliers (0.30%) outside the IQR bounds [98.00, 274.00].
+  - Feature 'hdl_cholesterol' contains 555 outliers (0.57%) outside the IQR bounds [26.00, 82.00].
+  - Feature 'ldl_cholesterol' contains 340 outliers (0.35%) outside the IQR bounds [6.00, 198.00].
+  - Feature 'triglycerides' contains 291 outliers (0.30%) outside the IQR bounds [1.00, 241.00].
+  - Feature 'glucose_fasting' contains 722 outliers (0.74%) outside the IQR bounds [75.00, 147.00].
+  - Feature 'glucose_postprandial' contains 617 outliers (0.63%) outside the IQR bounds [76.00, 244.00].
+  - Feature 'insulin_level' contains 322 outliers (0.33%) outside the IQR bounds [-5.95, 23.49].
+  - Feature 'hba1c' contains 599 outliers (0.62%) outside the IQR bounds [4.32, 8.72].
+  - Feature 'diabetes_risk_score' contains 889 outliers (0.91%) outside the IQR bounds [6.10, 53.30].

@@ -1,0 +1,9 @@
+{
+  "positive_label_for_error_analysis": 2,
+  "true_negative": 37866,
+  "false_positive": 1072,
+  "false_negative": 5615,
+  "true_positive": 1404,
+  "false_positive_rate": 0.027530946633109045,
+  "false_negative_rate": 0.7999715059125232
+}

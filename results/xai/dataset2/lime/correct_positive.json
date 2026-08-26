@@ -1,0 +1,88 @@
+{
+  "case": "correct_positive",
+  "actual_target": 1,
+  "predicted_target": 1,
+  "model": "decision_tree",
+  "contributions": [
+    {
+      "feature": "-0.01 < hba1c <= 0.67",
+      "contribution": 0.44190529052202215
+    },
+    {
+      "feature": "alcohol_consumption_per_week_8 <= 0.00",
+      "contribution": 0.126820083129651
+    },
+    {
+      "feature": "-0.67 < glucose_fasting <= -0.01",
+      "contribution": -0.09807034587848175
+    },
+    {
+      "feature": "alcohol_consumption_per_week_6 <= 0.00",
+      "contribution": -0.09796556394562314
+    },
+    {
+      "feature": "family_history_diabetes_1 <= 0.00",
+      "contribution": -0.06993989742331842
+    },
+    {
+      "feature": "alcohol_consumption_per_week_5 <= 0.00",
+      "contribution": 0.056679894353226144
+    },
+    {
+      "feature": "gender_Other <= 0.00",
+      "contribution": 0.05602889638044639
+    },
+    {
+      "feature": "education_level_No formal <= 0.00",
+      "contribution": -0.05343708721821649
+    },
+    {
+      "feature": "alcohol_consumption_per_week_7 <= 0.00",
+      "contribution": -0.04121257683595216
+    },
+    {
+      "feature": "ethnicity_Black <= 0.00",
+      "contribution": -0.03962634963598495
+    },
+    {
+      "feature": "-0.81 < insulin_level <= -0.07",
+      "contribution": 0.030406908109352877
+    },
+    {
+      "feature": "Age > 0.63",
+      "contribution": 0.029487294454110347
+    },
+    {
+      "feature": "income_level_Low <= 0.00",
+      "contribution": 0.02734490682969969
+    },
+    {
+      "feature": "employment_status_Employed <= 0.00",
+      "contribution": 0.026754997521279175
+    },
+    {
+      "feature": "cardiovascular_history_1 <= 0.00",
+      "contribution": 0.024858648280965904
+    },
+    {
+      "feature": "income_level_High <= 0.00",
+      "contribution": -0.023136948410645
+    },
+    {
+      "feature": "-0.74 < physical_activity_minutes_per_week <= -0.24",
+      "contribution": 0.022317241750815175
+    },
+    {
+      "feature": "alcohol_consumption_per_week_4 <= 0.00",
+      "contribution": -0.022283279128301282
+    },
+    {
+      "feature": "education_level_Postgraduate <= 0.00",
+      "contribution": 0.018587500747652114
+    },
+    {
+      "feature": "ethnicity_Other <= 0.00",
+      "contribution": 0.01811966286094761
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Feature,Test_Name,Test_Statistic,p-value,Significance_Alpha_0.05,Interpretation
+BMI,Kruskal-Wallis Test,14130.749996530507,0.0,True,Statistically Significant difference across target groups.
+MentHlth,Kruskal-Wallis Test,528.9105731476886,1.4077590593485824e-115,True,Statistically Significant difference across target groups.
+PhysHlth,Kruskal-Wallis Test,6661.878029178896,0.0,True,Statistically Significant difference across target groups.
+HighBP,Chi-Square Test of Independence,18794.644052016425,0.0,True,Statistically Significant association with target.
+HighChol,Chi-Square Test of Independence,11258.920399414841,0.0,True,Statistically Significant association with target.
+CholCheck,Chi-Square Test of Independence,1173.749357770035,1.3291236675197173e-255,True,Statistically Significant association with target.
+Smoker,Chi-Square Test of Independence,1010.5117511111928,3.716732429411907e-220,True,Statistically Significant association with target.
+Stroke,Chi-Square Test of Independence,2916.75197962113,0.0,True,Statistically Significant association with target.
+HeartDiseaseorAttack,Chi-Square Test of Independence,8244.88910662167,0.0,True,Statistically Significant association with target.
+PhysActivity,Chi-Square Test of Independence,3789.3014625427313,0.0,True,Statistically Significant association with target.
+Fruits,Chi-Square Test of Independence,454.3470587241542,2.1867028126650155e-99,True,Statistically Significant association with target.
+Veggies,Chi-Square Test of Independence,893.8419053866104,8.029645985781328e-195,True,Statistically Significant association with target.
+HvyAlcoholConsump,Chi-Square Test of Independence,850.3240478355594,2.2619296719502035e-185,True,Statistically Significant association with target.
+AnyHealthcare,Chi-Square Test of Independence,69.07797672213422,9.997880563068128e-16,True,Statistically Significant association with target.
+NoDocbcCost,Chi-Square Test of Independence,396.08182159008913,9.815789822340756e-87,True,Statistically Significant association with target.
+GenHlth,Chi-Square Test of Independence,24248.10614736849,0.0,True,Statistically Significant association with target.
+DiffWalk,Chi-Square Test of Independence,12776.94188915485,0.0,True,Statistically Significant association with target.
+Sex,Chi-Square Test of Independence,250.85057509520166,3.376678611575899e-55,True,Statistically Significant association with target.
+Age,Chi-Square Test of Independence,9641.376530679845,0.0,True,Statistically Significant association with target.
+Education,Chi-Square Test of Independence,4560.6402794568585,0.0,True,Statistically Significant association with target.
+Income,Chi-Square Test of Independence,7816.462905911266,0.0,True,Statistically Significant association with target.

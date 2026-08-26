@@ -1,0 +1,131 @@
+Feature,Feature_Type,Target_Class,Group_Count,Group_Mean,Group_Median,Prevalence_or_Percent
+Age,Numerical,0,38915,47.57217011435179,47.0,N/A
+Age,Numerical,1,58382,51.93943338700284,52.0,N/A
+physical_activity_minutes_per_week,Numerical,0,38915,129.28613645123988,109.0,N/A
+physical_activity_minutes_per_week,Numerical,1,58382,112.0485081018122,94.0,N/A
+diet_score,Numerical,0,38915,6.091766670949505,6.1,N/A
+diet_score,Numerical,1,58382,5.930855400637182,5.9,N/A
+sleep_hours_per_day,Numerical,0,38915,6.998771681870744,7.0,N/A
+sleep_hours_per_day,Numerical,1,58382,6.996999075057381,7.0,N/A
+screen_time_hours_per_day,Numerical,0,38915,5.944676859822691,5.9,N/A
+screen_time_hours_per_day,Numerical,1,58382,6.03192764893289,6.0,N/A
+bmi,Numerical,0,38915,25.187878710008995,25.2,N/A
+bmi,Numerical,1,58382,25.899856120036997,25.9,N/A
+waist_to_hip_ratio,Numerical,0,38915,0.8515685468328407,0.85,N/A
+waist_to_hip_ratio,Numerical,1,58382,0.859091672090713,0.86,N/A
+systolic_bp,Numerical,0,38915,114.11054863163305,114.0,N/A
+systolic_bp,Numerical,1,58382,116.92633003322942,117.0,N/A
+diastolic_bp,Numerical,0,38915,74.87246563021971,75.0,N/A
+diastolic_bp,Numerical,1,58382,75.47492377787674,75.0,N/A
+heart_rate,Numerical,0,38915,69.39396119748169,69.0,N/A
+heart_rate,Numerical,1,58382,69.7853447980542,70.0,N/A
+cholesterol_total,Numerical,0,38915,183.66773737633304,183.0,N/A
+cholesterol_total,Numerical,1,58382,187.5283135212908,188.0,N/A
+hdl_cholesterol,Numerical,0,38915,54.69189258640627,55.0,N/A
+hdl_cholesterol,Numerical,1,58382,53.61136994279059,54.0,N/A
+ldl_cholesterol,Numerical,0,38915,100.20367467557497,99.0,N/A
+ldl_cholesterol,Numerical,1,58382,104.86442739200439,104.0,N/A
+triglycerides,Numerical,0,38915,118.42983425414364,118.0,N/A
+triglycerides,Numerical,1,58382,123.49045938816758,123.0,N/A
+glucose_fasting,Numerical,0,38915,102.62158550687396,103.0,N/A
+glucose_fasting,Numerical,1,58382,116.78767428316947,117.0,N/A
+glucose_postprandial,Numerical,0,38915,136.18183219838107,138.0,N/A
+glucose_postprandial,Numerical,1,58382,175.90010619711555,176.0,N/A
+insulin_level,Numerical,0,38915,8.712184761660028,8.41,N/A
+insulin_level,Numerical,1,58382,9.29782330170258,9.05,N/A
+hba1c,Numerical,0,38915,5.843923165874342,5.94,N/A
+hba1c,Numerical,1,58382,6.971207735260868,6.95,N/A
+diabetes_risk_score,Numerical,0,38915,27.131525118848774,26.4,N/A
+diabetes_risk_score,Numerical,1,58382,32.282026994621624,31.0,N/A
+gender,Categorical,Female vs Target Class 0,19626,N/A,N/A,40.16%
+gender,Categorical,Female vs Target Class 1,29247,N/A,N/A,59.84%
+gender,Categorical,Male vs Target Class 0,18551,N/A,N/A,39.93%
+gender,Categorical,Male vs Target Class 1,27909,N/A,N/A,60.07%
+gender,Categorical,Other vs Target Class 0,738,N/A,N/A,37.58%
+gender,Categorical,Other vs Target Class 1,1226,N/A,N/A,62.42%
+ethnicity,Categorical,Asian vs Target Class 0,4599,N/A,N/A,39.90%
+ethnicity,Categorical,Asian vs Target Class 1,6928,N/A,N/A,60.10%
+ethnicity,Categorical,Black vs Target Class 0,6973,N/A,N/A,39.84%
+ethnicity,Categorical,Black vs Target Class 1,10531,N/A,N/A,60.16%
+ethnicity,Categorical,Hispanic vs Target Class 0,7932,N/A,N/A,40.57%
+ethnicity,Categorical,Hispanic vs Target Class 1,11620,N/A,N/A,59.43%
+ethnicity,Categorical,Other vs Target Class 0,1929,N/A,N/A,39.24%
+ethnicity,Categorical,Other vs Target Class 1,2987,N/A,N/A,60.76%
+ethnicity,Categorical,White vs Target Class 0,17482,N/A,N/A,39.92%
+ethnicity,Categorical,White vs Target Class 1,26316,N/A,N/A,60.08%
+education_level,Categorical,Graduate vs Target Class 0,13611,N/A,N/A,39.92%
+education_level,Categorical,Graduate vs Target Class 1,20486,N/A,N/A,60.08%
+education_level,Categorical,Highschool vs Target Class 0,17434,N/A,N/A,39.94%
+education_level,Categorical,Highschool vs Target Class 1,26217,N/A,N/A,60.06%
+education_level,Categorical,No formal vs Target Class 0,1970,N/A,N/A,39.42%
+education_level,Categorical,No formal vs Target Class 1,3027,N/A,N/A,60.58%
+education_level,Categorical,Postgraduate vs Target Class 0,5900,N/A,N/A,40.54%
+education_level,Categorical,Postgraduate vs Target Class 1,8652,N/A,N/A,59.46%
+income_level,Categorical,High vs Target Class 0,1907,N/A,N/A,39.24%
+income_level,Categorical,High vs Target Class 1,2953,N/A,N/A,60.76%
+income_level,Categorical,Low vs Target Class 0,5760,N/A,N/A,39.94%
+income_level,Categorical,Low vs Target Class 1,8662,N/A,N/A,60.06%
+income_level,Categorical,Lower-Middle vs Target Class 0,9691,N/A,N/A,39.61%
+income_level,Categorical,Lower-Middle vs Target Class 1,14776,N/A,N/A,60.39%
+income_level,Categorical,Middle vs Target Class 0,13791,N/A,N/A,40.31%
+income_level,Categorical,Middle vs Target Class 1,20423,N/A,N/A,59.69%
+income_level,Categorical,Upper-Middle vs Target Class 0,7766,N/A,N/A,40.17%
+income_level,Categorical,Upper-Middle vs Target Class 1,11568,N/A,N/A,59.83%
+employment_status,Categorical,Employed vs Target Class 0,23341,N/A,N/A,39.85%
+employment_status,Categorical,Employed vs Target Class 1,35238,N/A,N/A,60.15%
+employment_status,Categorical,Retired vs Target Class 0,8544,N/A,N/A,40.42%
+employment_status,Categorical,Retired vs Target Class 1,12596,N/A,N/A,59.58%
+employment_status,Categorical,Student vs Target Class 0,2410,N/A,N/A,40.31%
+employment_status,Categorical,Student vs Target Class 1,3568,N/A,N/A,59.69%
+employment_status,Categorical,Unemployed vs Target Class 0,4620,N/A,N/A,39.83%
+employment_status,Categorical,Unemployed vs Target Class 1,6980,N/A,N/A,60.17%
+smoking_status,Categorical,Current vs Target Class 0,7843,N/A,N/A,40.03%
+smoking_status,Categorical,Current vs Target Class 1,11748,N/A,N/A,59.97%
+smoking_status,Categorical,Former vs Target Class 0,7772,N/A,N/A,39.88%
+smoking_status,Categorical,Former vs Target Class 1,11716,N/A,N/A,60.12%
+smoking_status,Categorical,Never vs Target Class 0,23300,N/A,N/A,40.02%
+smoking_status,Categorical,Never vs Target Class 1,34918,N/A,N/A,59.98%
+alcohol_consumption_per_week,Categorical,0 vs Target Class 0,5237,N/A,N/A,39.80%
+alcohol_consumption_per_week,Categorical,0 vs Target Class 1,7922,N/A,N/A,60.20%
+alcohol_consumption_per_week,Categorical,1 vs Target Class 0,10603,N/A,N/A,40.39%
+alcohol_consumption_per_week,Categorical,1 vs Target Class 1,15651,N/A,N/A,59.61%
+alcohol_consumption_per_week,Categorical,2 vs Target Class 0,10529,N/A,N/A,39.90%
+alcohol_consumption_per_week,Categorical,2 vs Target Class 1,15860,N/A,N/A,60.10%
+alcohol_consumption_per_week,Categorical,3 vs Target Class 0,6938,N/A,N/A,39.85%
+alcohol_consumption_per_week,Categorical,3 vs Target Class 1,10472,N/A,N/A,60.15%
+alcohol_consumption_per_week,Categorical,4 vs Target Class 0,3499,N/A,N/A,39.38%
+alcohol_consumption_per_week,Categorical,4 vs Target Class 1,5386,N/A,N/A,60.62%
+alcohol_consumption_per_week,Categorical,5 vs Target Class 0,1438,N/A,N/A,40.83%
+alcohol_consumption_per_week,Categorical,5 vs Target Class 1,2084,N/A,N/A,59.17%
+alcohol_consumption_per_week,Categorical,6 vs Target Class 0,488,N/A,N/A,39.51%
+alcohol_consumption_per_week,Categorical,6 vs Target Class 1,747,N/A,N/A,60.49%
+alcohol_consumption_per_week,Categorical,7 vs Target Class 0,139,N/A,N/A,40.06%
+alcohol_consumption_per_week,Categorical,7 vs Target Class 1,208,N/A,N/A,59.94%
+alcohol_consumption_per_week,Categorical,8 vs Target Class 0,36,N/A,N/A,44.44%
+alcohol_consumption_per_week,Categorical,8 vs Target Class 1,45,N/A,N/A,55.56%
+alcohol_consumption_per_week,Categorical,9 vs Target Class 0,7,N/A,N/A,53.85%
+alcohol_consumption_per_week,Categorical,9 vs Target Class 1,6,N/A,N/A,46.15%
+alcohol_consumption_per_week,Categorical,10 vs Target Class 0,1,N/A,N/A,50.00%
+alcohol_consumption_per_week,Categorical,10 vs Target Class 1,1,N/A,N/A,50.00%
+family_history_diabetes,Categorical,0 vs Target Class 0,34293,N/A,N/A,45.17%
+family_history_diabetes,Categorical,0 vs Target Class 1,41632,N/A,N/A,54.83%
+family_history_diabetes,Categorical,1 vs Target Class 0,4622,N/A,N/A,21.63%
+family_history_diabetes,Categorical,1 vs Target Class 1,16750,N/A,N/A,78.37%
+hypertension_history,Categorical,0 vs Target Class 0,29720,N/A,N/A,40.78%
+hypertension_history,Categorical,0 vs Target Class 1,43164,N/A,N/A,59.22%
+hypertension_history,Categorical,1 vs Target Class 0,9195,N/A,N/A,37.66%
+hypertension_history,Categorical,1 vs Target Class 1,15218,N/A,N/A,62.34%
+cardiovascular_history,Categorical,0 vs Target Class 0,36222,N/A,N/A,40.42%
+cardiovascular_history,Categorical,0 vs Target Class 1,53382,N/A,N/A,59.58%
+cardiovascular_history,Categorical,1 vs Target Class 0,2693,N/A,N/A,35.01%
+cardiovascular_history,Categorical,1 vs Target Class 1,5000,N/A,N/A,64.99%
+diabetes_stage,Categorical,Gestational vs Target Class 0,111,N/A,N/A,41.57%
+diabetes_stage,Categorical,Gestational vs Target Class 1,156,N/A,N/A,58.43%
+diabetes_stage,Categorical,No Diabetes vs Target Class 0,7737,N/A,N/A,100.00%
+diabetes_stage,Categorical,No Diabetes vs Target Class 1,0,N/A,N/A,0.00%
+diabetes_stage,Categorical,Pre-Diabetes vs Target Class 0,31013,N/A,N/A,100.00%
+diabetes_stage,Categorical,Pre-Diabetes vs Target Class 1,0,N/A,N/A,0.00%
+diabetes_stage,Categorical,Type 1 vs Target Class 0,54,N/A,N/A,46.15%
+diabetes_stage,Categorical,Type 1 vs Target Class 1,63,N/A,N/A,53.85%
+diabetes_stage,Categorical,Type 2 vs Target Class 0,0,N/A,N/A,0.00%
+diabetes_stage,Categorical,Type 2 vs Target Class 1,58163,N/A,N/A,100.00%

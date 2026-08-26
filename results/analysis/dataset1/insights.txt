@@ -1,0 +1,24 @@
+=== EDA Insights: diabetes_012_health_indicators_BRFSS2015.csv ===
+
+Target variable 'Diabetes_012' imbalance analysis:
+  - The target is highly imbalanced with a ratio of 46.15:1. Majority class '0.0' represents 84.24% of the records, while minority class '1.0' represents 1.83%. Model evaluation metrics should prioritize F1-score or AUC-ROC rather than accuracy.
+
+Correlation Analysis Insights (Pearson):
+  - Features 'MentHlth' and 'PhysHlth' show a moderate positive relationship (r = 0.35, Spearman rho = 0.31).
+
+Statistical Significance Testing (Alpha = 0.05):
+  - 21 out of 21 tested features show a statistically significant relationship or difference across target classes.
+    * Feature 'BMI' shows a statistically significant difference with the target group (p-value = 0.000e+00 using Kruskal-Wallis Test).
+    * Feature 'MentHlth' shows a statistically significant difference with the target group (p-value = 1.408e-115 using Kruskal-Wallis Test).
+    * Feature 'PhysHlth' shows a statistically significant difference with the target group (p-value = 0.000e+00 using Kruskal-Wallis Test).
+    * Feature 'HighBP' shows a statistically significant association with the target group (p-value = 0.000e+00 using Chi-Square Test of Independence).
+    * Feature 'HighChol' shows a statistically significant association with the target group (p-value = 0.000e+00 using Chi-Square Test of Independence).
+    * Feature 'CholCheck' shows a statistically significant association with the target group (p-value = 1.329e-255 using Chi-Square Test of Independence).
+    * Feature 'Smoker' shows a statistically significant association with the target group (p-value = 3.717e-220 using Chi-Square Test of Independence).
+    * Feature 'Stroke' shows a statistically significant association with the target group (p-value = 0.000e+00 using Chi-Square Test of Independence).
+
+Distribution and Outlier Insights:
+  - Right-skewed numerical variables (skew >= 0.5): BMI, MentHlth, PhysHlth. These features may benefit from log or power transformations during modeling if linear algorithms are used.
+  - Feature 'BMI' contains 9,847 outliers (3.88%) outside the IQR bounds [13.50, 41.50].
+  - Feature 'MentHlth' contains 36,208 outliers (14.27%) outside the IQR bounds [-3.00, 5.00].
+  - Feature 'PhysHlth' contains 40,949 outliers (16.14%) outside the IQR bounds [-4.50, 7.50].

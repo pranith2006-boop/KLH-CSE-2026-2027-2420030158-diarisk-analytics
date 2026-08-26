@@ -1,0 +1,17 @@
+Metric,Value
+Original Records,97297
+Original Features,31
+Missing Values,0
+Duplicate Records Before,0
+Duplicate Records After,0
+Removed Duplicates,0
+Numerical Columns,18
+Categorical Columns,10
+Target Column,diagnosed_diabetes
+Class Distribution,"Class 1: 58382 (60.00%), Class 0: 38915 (40.00%)"
+Train Records,77837
+Test Records,19460
+Processed Features Count,59
+Scaling Method,StandardScaler
+Encoding Method,OneHotEncoder
+Dropped Target Leakage Columns,"diabetes_stage, diabetes_risk_score"

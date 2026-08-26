@@ -1,0 +1,16 @@
+Metric,Value
+Original Records,253680
+Original Features,22
+Missing Values,0
+Duplicate Records Before,23899
+Duplicate Records After,0
+Removed Duplicates,23899
+Numerical Columns,3
+Categorical Columns,18
+Target Column,Diabetes_012
+Class Distribution,"Class 0: 190055 (82.71%), Class 2: 35097 (15.27%), Class 1: 4629 (2.01%)"
+Train Records,183824
+Test Records,45957
+Processed Features Count,63
+Scaling Method,StandardScaler
+Encoding Method,OneHotEncoder

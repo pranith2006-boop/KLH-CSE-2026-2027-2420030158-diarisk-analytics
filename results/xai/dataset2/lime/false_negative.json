@@ -1,0 +1,88 @@
+{
+  "case": "false_negative",
+  "actual_target": 1,
+  "predicted_target": 0,
+  "model": "decision_tree",
+  "contributions": [
+    {
+      "feature": "-0.68 < hba1c <= -0.01",
+      "contribution": 0.4311442729106649
+    },
+    {
+      "feature": "-0.01 < glucose_fasting <= 0.65",
+      "contribution": 0.09167306762619529
+    },
+    {
+      "feature": "family_history_diabetes_1 <= 0.00",
+      "contribution": 0.08431176659671279
+    },
+    {
+      "feature": "alcohol_consumption_per_week_6 <= 0.00",
+      "contribution": 0.072440376228322
+    },
+    {
+      "feature": "alcohol_consumption_per_week_5 <= 0.00",
+      "contribution": -0.04796127769707883
+    },
+    {
+      "feature": "alcohol_consumption_per_week_7 <= 0.00",
+      "contribution": 0.04464281613172629
+    },
+    {
+      "feature": "gender_Other <= 0.00",
+      "contribution": -0.042619282405894236
+    },
+    {
+      "feature": "education_level_No formal <= 0.00",
+      "contribution": 0.03851838089780917
+    },
+    {
+      "feature": "ethnicity_Black <= 0.00",
+      "contribution": 0.03800576033756244
+    },
+    {
+      "feature": "cardiovascular_history_1 <= 0.00",
+      "contribution": -0.025489363264467633
+    },
+    {
+      "feature": "-0.01 < hdl_cholesterol <= 0.67",
+      "contribution": 0.02257639703180149
+    },
+    {
+      "feature": "income_level_Upper-Middle <= 0.00",
+      "contribution": -0.021881604275186234
+    },
+    {
+      "feature": "0.00 < employment_status_Employed <= 1.00",
+      "contribution": 0.02128239085639928
+    },
+    {
+      "feature": "0.00 < smoking_status_Never <= 1.00",
+      "contribution": -0.01979940894325106
+    },
+    {
+      "feature": "income_level_Low <= 0.00",
+      "contribution": -0.01880991268605422
+    },
+    {
+      "feature": "insulin_level <= -0.81",
+      "contribution": 0.01826966342949477
+    },
+    {
+      "feature": "employment_status_Unemployed <= 0.00",
+      "contribution": -0.017647944950398
+    },
+    {
+      "feature": "0.00 < alcohol_consumption_per_week_2 <= 1.00",
+      "contribution": 0.017094954241014176
+    },
+    {
+      "feature": "cholesterol_total > 0.63",
+      "contribution": 0.016143498953544375
+    },
+    {
+      "feature": "education_level_Highschool <= 0.00",
+      "contribution": 0.015591693810569497
+    }
+  ]
+}

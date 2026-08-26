@@ -1,0 +1,108 @@
+{
+  "case": "false_positive",
+  "actual_target": 0,
+  "predicted_target": 2,
+  "model": "xgboost",
+  "contributions": [
+    {
+      "feature": "CholCheck_0.0",
+      "contribution": -0.438798189163208,
+      "value": 1.0
+    },
+    {
+      "feature": "HeartDiseaseorAttack_0.0",
+      "contribution": 0.34781572222709656,
+      "value": 0.0
+    },
+    {
+      "feature": "Stroke_0.0",
+      "contribution": 0.25228479504585266,
+      "value": 0.0
+    },
+    {
+      "feature": "HighBP_0.0",
+      "contribution": 0.2247239202260971,
+      "value": 0.0
+    },
+    {
+      "feature": "DiffWalk_0.0",
+      "contribution": 0.2193126678466797,
+      "value": 0.0
+    },
+    {
+      "feature": "BMI",
+      "contribution": -0.0905001163482666,
+      "value": -0.24940617693666128
+    },
+    {
+      "feature": "HighChol_0.0",
+      "contribution": 0.0879707932472229,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_11.0",
+      "contribution": 0.07687356323003769,
+      "value": 1.0
+    },
+    {
+      "feature": "NoDocbcCost_0.0",
+      "contribution": 0.05521491542458534,
+      "value": 1.0
+    },
+    {
+      "feature": "PhysActivity_0.0",
+      "contribution": -0.05346766486763954,
+      "value": 0.0
+    },
+    {
+      "feature": "GenHlth_2.0",
+      "contribution": 0.0472266748547554,
+      "value": 0.0
+    },
+    {
+      "feature": "Income_2.0",
+      "contribution": 0.04420460760593414,
+      "value": 1.0
+    },
+    {
+      "feature": "AnyHealthcare_0.0",
+      "contribution": -0.040533531457185745,
+      "value": 0.0
+    },
+    {
+      "feature": "Fruits_0.0",
+      "contribution": -0.039792343974113464,
+      "value": 0.0
+    },
+    {
+      "feature": "Smoker_0.0",
+      "contribution": 0.0346391536295414,
+      "value": 1.0
+    },
+    {
+      "feature": "HvyAlcoholConsump_0.0",
+      "contribution": 0.03224644064903259,
+      "value": 1.0
+    },
+    {
+      "feature": "PhysHlth",
+      "contribution": -0.03142154589295387,
+      "value": -0.5176522507440192
+    },
+    {
+      "feature": "Education_5.0",
+      "contribution": 0.02845977433025837,
+      "value": 0.0
+    },
+    {
+      "feature": "GenHlth_3.0",
+      "contribution": -0.027746694162487984,
+      "value": 1.0
+    },
+    {
+      "feature": "GenHlth_5.0",
+      "contribution": -0.02466021291911602,
+      "value": 0.0
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "case": "false_positive",
+  "actual_target": 0,
+  "predicted_target": 1,
+  "model": "decision_tree",
+  "contributions": [
+    {
+      "feature": "-0.68 < hba1c <= -0.01",
+      "contribution": -0.4290049649817963
+    },
+    {
+      "feature": "glucose_fasting > 0.65",
+      "contribution": 0.305598181136765
+    },
+    {
+      "feature": "family_history_diabetes_1 <= 0.00",
+      "contribution": -0.08065348494789965
+    },
+    {
+      "feature": "alcohol_consumption_per_week_6 <= 0.00",
+      "contribution": -0.07380209572018925
+    },
+    {
+      "feature": "alcohol_consumption_per_week_8 <= 0.00",
+      "contribution": -0.040185399708592646
+    },
+    {
+      "feature": "gender_Other <= 0.00",
+      "contribution": 0.034069376623609024
+    },
+    {
+      "feature": "alcohol_consumption_per_week_7 <= 0.00",
+      "contribution": -0.030281150229518508
+    },
+    {
+      "feature": "alcohol_consumption_per_week_5 <= 0.00",
+      "contribution": 0.030090144513938204
+    },
+    {
+      "feature": "cardiovascular_history_1 <= 0.00",
+      "contribution": 0.029645379269937957
+    },
+    {
+      "feature": "ethnicity_Black <= 0.00",
+      "contribution": -0.02664423315746431
+    },
+    {
+      "feature": "education_level_No formal <= 0.00",
+      "contribution": -0.025178240099488245
+    },
+    {
+      "feature": "cholesterol_total > 0.63",
+      "contribution": -0.02463645072258527
+    },
+    {
+      "feature": "Age > 0.63",
+      "contribution": 0.021387991460228597
+    },
+    {
+      "feature": "waist_to_hip_ratio > 0.73",
+      "contribution": -0.019844307248168536
+    },
+    {
+      "feature": "-0.01 < triglycerides <= 0.71",
+      "contribution": 0.019235498145488434
+    },
+    {
+      "feature": "0.00 < employment_status_Employed <= 1.00",
+      "contribution": -0.01835647441740963
+    },
+    {
+      "feature": "income_level_Upper-Middle > 0.00",
+      "contribution": -0.016630346658459375
+    },
+    {
+      "feature": "alcohol_consumption_per_week_2 <= 0.00",
+      "contribution": 0.015566419347437986
+    },
+    {
+      "feature": "income_level_Middle <= 0.00",
+      "contribution": 0.015517511088366699
+    },
+    {
+      "feature": "bmi > 0.64",
+      "contribution": 0.014625958160550285
+    }
+  ]
+}

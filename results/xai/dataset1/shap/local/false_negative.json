@@ -1,0 +1,108 @@
+{
+  "case": "false_negative",
+  "actual_target": 2,
+  "predicted_target": 0,
+  "model": "xgboost",
+  "contributions": [
+    {
+      "feature": "HighBP_0.0",
+      "contribution": -0.20413382351398468,
+      "value": 0.0
+    },
+    {
+      "feature": "HighChol_0.0",
+      "contribution": -0.09984701126813889,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_9.0",
+      "contribution": -0.07388360053300858,
+      "value": 1.0
+    },
+    {
+      "feature": "HeartDiseaseorAttack_0.0",
+      "contribution": -0.06096430495381355,
+      "value": 0.0
+    },
+    {
+      "feature": "GenHlth_2.0",
+      "contribution": -0.030865175649523735,
+      "value": 0.0
+    },
+    {
+      "feature": "Income_8.0",
+      "contribution": -0.026943635195493698,
+      "value": 0.0
+    },
+    {
+      "feature": "DiffWalk_0.0",
+      "contribution": 0.026937823742628098,
+      "value": 1.0
+    },
+    {
+      "feature": "Income_1.0",
+      "contribution": -0.02636026032269001,
+      "value": 1.0
+    },
+    {
+      "feature": "GenHlth_1.0",
+      "contribution": -0.022065339609980583,
+      "value": 0.0
+    },
+    {
+      "feature": "PhysHlth",
+      "contribution": 0.02170073799788952,
+      "value": 2.7972687696631917
+    },
+    {
+      "feature": "Age_11.0",
+      "contribution": 0.017178483307361603,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_10.0",
+      "contribution": 0.01575276255607605,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_3.0",
+      "contribution": -0.014563857577741146,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_4.0",
+      "contribution": -0.012902317568659782,
+      "value": 0.0
+    },
+    {
+      "feature": "HvyAlcoholConsump_0.0",
+      "contribution": -0.012340300716459751,
+      "value": 1.0
+    },
+    {
+      "feature": "Sex_0.0",
+      "contribution": 0.011930296197533607,
+      "value": 0.0
+    },
+    {
+      "feature": "CholCheck_0.0",
+      "contribution": -0.011043878272175789,
+      "value": 0.0
+    },
+    {
+      "feature": "Age_5.0",
+      "contribution": -0.010414481163024902,
+      "value": 0.0
+    },
+    {
+      "feature": "Income_2.0",
+      "contribution": 0.010166618041694164,
+      "value": 0.0
+    },
+    {
+      "feature": "GenHlth_4.0",
+      "contribution": 0.009848713874816895,
+      "value": 0.0
+    }
+  ]
+}
