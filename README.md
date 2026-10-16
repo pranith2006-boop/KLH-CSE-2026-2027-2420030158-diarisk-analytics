@@ -113,6 +113,45 @@ The final comparison considers both **predictive performance and interpretabilit
 
 ---
 
+## 🎓 Review 3: Machine Learning Presentation & Technical Evaluation
+
+For **Review 3**, the project defense covers the six machine learning lifecycle phases implemented in this repository:
+
+### 1. Data Understanding & Feature Semantics
+- **Dataset 1 (CDC BRFSS 2015 Health Indicators)**: 229,781 clean records, 21 predictors; 3 continuous numerical (`BMI`, `MentHlth`, `PhysHlth`), 14 binary categorical flags (`HighBP`, `HighChol`, `Smoker`, etc.), and 4 ordinal categorical scales (`GenHlth`, `Age`, `Education`, `Income`). Multiclass target `Diabetes_012` exhibits a severe **46.15:1** imbalance ratio (Class 0: 82.71%, Class 1: 2.01%, Class 2: 15.27%).
+- **Dataset 2 (Clinical & Lifestyle Profile)**: 97,297 records, 28 predictors; 18 continuous lab/biometric measurements (`hba1c`, `glucose_fasting`, `glucose_postprandial`, `insulin_level`, `systolic_bp`, etc.) and 10 categorical variables. Binary target `diagnosed_diabetes` has a balanced **1.50:1** ratio (Class 0: 40.0%, Class 1: 60.0%).
+
+### 2. Data Cleaning & Imputation
+- Verified **0 raw missing values** across both datasets with physiological integrity checks.
+- Embedded production-grade imputers inside pipelines: `SimpleImputer(strategy='median')` for numerical features and `SimpleImputer(strategy='most_frequent')` for categorical features.
+- Detected and removed **23,899 duplicate records (9.42%)** in Dataset 1 to prevent data contamination.
+- Dropped target proxies (`diabetes_stage`, `diabetes_risk_score`) in Dataset 2 to prevent circular target leakage.
+
+### 3. Statistical Checks & Outlier Handling
+- **Normality Testing**: Continuous features severely violate Gaussian distribution assumptions (e.g., `BMI` skewness = +1.21; `MentHlth` skewness = +2.23; $p < 0.001$).
+- **Non-Parametric Hypothesis Tests**: Kruskal-Wallis H-test for Dataset 1 ($p < 10^{-100}$) and Mann-Whitney U test for Dataset 2 ($p < 10^{-190}$ for `hba1c` and fasting glucose) established decisive group separation; categorical features confirmed via Chi-Square ($\chi^2$) tests of independence.
+- **Outlier Handling**: Detected via the IQR rule ($[Q1 - 1.5\text{IQR}, Q3 + 1.5\text{IQR}]$) and **retained completely**. In clinical healthcare, extreme readings (e.g., HbA1c = 9.8%, fasting glucose = 172 mg/dL) represent genuine biological disease pathology rather than measurement noise. Deleting them would eliminate critical diagnostic signals.
+
+### 4. Data Preprocessing & Scaling Justification
+- Stratified 80/20 train/test split preserving class distribution.
+- **Scaling Choice**: Selected `StandardScaler` (Z-score) over Min-Max normalisation because Min-Max squashes 99% of normal patient values into a tiny band in the presence of clinical outliers, whereas StandardScaler preserves variance, centers features at $\mu=0, \sigma=1$, and provides spherical loss geometry for gradient/margin optimization.
+- **Categorical Encoding**: Applied `OneHotEncoder(handle_unknown='ignore')` to eliminate false linear distance assumptions on ordinal survey codes, expanding feature spaces to 69 (Dataset 1) and 65 (Dataset 2) columns.
+- Preprocessing enclosed in Scikit-Learn `ColumnTransformer` fitted strictly on `X_train` to eliminate data leakage.
+
+### 5. Model Building & Imbalance Strategy
+- Trained and serialized **6 algorithms** per dataset: **Logistic Regression, Decision Tree, Random Forest, Support Vector Machine (SVM), XGBoost, and CatBoost**.
+- Evaluated with `class_weight='balanced'` on Dataset 1 to handle the 46.15:1 class imbalance.
+
+### 6. Model Analysis, Metrics & Clinical Findings
+- Evaluated using Accuracy, Precision, Recall, F1-Score, ROC-AUC, 5-Fold Stratified Cross-Validation, and Confusion Matrices.
+- **Dataset 1 Winner**: **XGBoost** (ROC-AUC: **0.7656**, 5-Fold CV: 0.7609 ± 0.0028, Accuracy: 83.63%).
+- **Dataset 2 Winner**: **Decision Tree** (ROC-AUC: **0.9450**, Precision: **99.71%**, Recall: 86.85%, F1: 0.9283, 5-Fold CV: 0.9434 ± 0.0017).
+- **Clinical Validation**: Feature importance analysis confirms that **`hba1c` (95.01%)** and **`glucose_fasting` (3.92%)** drive the Decision Tree's decisions, aligning directly with American Diabetes Association (ADA) diagnostic guidelines ($\text{HbA1c} \ge 6.5\%$).
+
+*Full presentation guide & slides script:* [reports/review3_ml_presentation.md](reports/review3_ml_presentation.md)
+
+---
+
 ## 🔍 Explainable Artificial Intelligence (XAI)
 
 A major component of the project is Explainable AI.
@@ -225,6 +264,7 @@ The repository follows the mandatory project submission structure:
 │   └── xai/
 │
 └── reports/
+    ├── review3_ml_presentation.md
     ├── progress/
     └── final/
 ```
@@ -434,6 +474,7 @@ The application never stores the original CSV datasets. It stores only the datas
 
 ## Final Reports
 
+* [Review 3 ML Presentation & Technical Report](reports/review3_ml_presentation.md)
 * [Final testing report](reports/progress/final_testing_report.md)
 * [Final project checklist](reports/final/final_project_checklist.md)
 * [Final technical summary](reports/final/final_technical_summary.md)
@@ -484,6 +525,7 @@ Major project phases will be tagged using Git tags:
 ```text
 review-1
 review-2
+review-3
 final
 ```
 
